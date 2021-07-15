@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS RESET END*/
+.box{
+    width: 20%;
+    
+}
+.person {
+    position: relative;
+    color: #fcf8f4;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    border: 2px solid #A46843;
+    background-color: #ad8f72;
+    border-radius: 10px;
+}
+
+.head {
+    position: relative;
+    width: 250px;
+}
+.head img {
+    border-radius: 100%;
+}
+
+.head .sex {
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-size: 50px;
+}
+
+.info {
+    margin-top: 20px;
+}
+.dob, .registered ,.description,.name {
+    padding-bottom: 10px;
+}
+
+.name {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.detail{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.contact ,.location{
+    margin: 10px;
+}
+.contact div{
+    padding: 10px;
+}
+.btnhead{
+    margin-top: 10px;
+    margin-left: 20px;
+    border: #ffca96;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: rgb(250, 205, 205);
+    font-size: 20px;
+}
+.btnhead:hover{
+    background: rgb(245, 55, 55);
+    color: white;
+}
+.btn{
+    color: red;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: #ffca96;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: rgb(250, 205, 205);
+    font-size: 20px;
+}
+.btn:hover{
+    background: rgb(245, 55, 55);
+    color: white;
+}
